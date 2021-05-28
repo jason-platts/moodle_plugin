@@ -1,5 +1,5 @@
 window.addEventListener("message", function(event) {
-  if (event.origin.idexOf('open.ac.uk') === -1) {
+  if (event.origin.indexOf('open.ac.uk') === -1) {
     // something from an unknown domain, let's ignore it
     return;
   }
